@@ -196,29 +196,29 @@ Twinkle.arv.callback.changeCategory = function (e) {
 				name: 'arvtype',
 				list: [
 					{
-						label: 'Misleading username',
+						label: 'Nama pengguna yang menyesatkan',
 						value: 'misleading',
-						tooltip: 'Misleading usernames imply relevant, misleading things about the contributor. For example, misleading points of fact, an impression of undue authority, or usernames giving the impression of a bot account.'
+						tooltip: 'Nama pengguna menyiratkan hal-hal yang relevan dan menyesatkan tentang kontributor. Misalnya, fakta-fakta yang menyesatkan, kesan otoritas yang tidak semestinya, atau nama pengguna yang memberi kesan akun bot.'
 					},
 					{
-						label: 'Promotional username',
+						label: 'Nama pengguna yang berbau promosi',
 						value: 'promotional',
-						tooltip: 'Promotional usernames are advertisements for a company, website or group. Please do not report these names to UAA unless the user has also made promotional edits related to the name.'
+						tooltip: 'Nama pengguna promosi adalah iklan untuk sebuah perusahaan, situs web, atau grup. Harap jangan melaporkan nama-nama ini ke UAA kecuali jika pengguna telah melakukan penyuntingan promosi terkait dengan nama tersebut.'
 					},
 					{
-						label: 'Username that implies shared use',
+						label: 'Nama pengguna yang menyiratkan penggunaan bersama',
 						value: 'shared',
-						tooltip: 'Usernames that imply the likelihood of shared use (names of companies or groups, or the names of posts within organizations) are not permitted. Usernames are acceptable if they contain a company or group name but are clearly intended to denote an individual person, such as "Mark at WidgetsUSA", "Jack Smith at the XY Foundation", "WidgetFan87", etc.'
+						tooltip: 'Nama pengguna yang menyiratkan kemungkinan penggunaan bersama (nama perusahaan atau grup, atau nama pos dalam organisasi) tidak diizinkan. Nama pengguna dapat diterima jika mengandung nama perusahaan atau grup tetapi secara jelas dimaksudkan untuk menunjukkan seseorang, seperti "Mark at WidgetsUSA", "Jack Smith at the XY Foundation", "WidgetFan87", dll.'
 					},
 					{
-						label: 'Offensive username',
+						label: 'Nama pengguna yang ofensif',
 						value: 'offensive',
-						tooltip: 'Offensive usernames make harmonious editing difficult or impossible.'
+						tooltip: 'Nama pengguna yang ofensif membuat pengeditan yang harmonis menjadi sulit atau bahkan menjadi tidak mungkin.'
 					},
 					{
-						label: 'Disruptive username',
+						label: 'Nama pengguna yang mengganggu',
 						value: 'disruptive',
-						tooltip: 'Disruptive usernames include outright trolling or personal attacks, or otherwise show a clear intent to disrupt Wikipedia.'
+						tooltip: 'Nama pengguna yang mengganggu termasuk penjahilan langsung atau serangan pribadi, atau menunjukkan niat yang jelas untuk merusak Wikipedia.'
 					}
 				]
 			} );
